@@ -1,0 +1,72 @@
+Intalar Archlinux
+
+1 Preparar programas:
+	Firefox + Qutebrowser + Chrome
+	Git 
+	Nvim
+	Vlc
+	Xterm + Alacritty (alacritty -e "%s" in prefered apliccations)
+	Unrar
+	PcmanFm + Vifm
+	Htop
+	Emacs > Email
+	Virtmanager o VirtualBox
+	Pass (para contraeñas)
+	Dropbox
+	Emacs
+	Para WM: Nitrogen, Compton (picom), Dmenu, XTERM
+	Para XMONAD: Xmonad, Xmonad-Contrib, Xmobar:
+	Para SHELL: 	pfetch o neofecth, powerline, powerline fonts, 
+			exa, cargo, ranger
+	
+
+
+2 Fuentes:
+	Office: Instalar ttf-vista-fonts y ttf-ms-fonts (yay)
+	Shell: nerd-fonts-complete (yay)
+
+3 Ver 7 y  15 cosas para hacer despues de instalar archlinux. Son dos paginas.
+
+4 Configurar LightDm
+	Poner Background (Wallpaper) e Icon
+
+5 VSCODE: Instalar, sincronizar y tematizar.
+
+
+6 Doom-Emacs
+	sudo pacman -S emacs git ripgrep fd
+	git 
+
+
+
+
+
+7 Libre Office (Activar modo experimental, cambiar layout menu-group, theme dark, cambiar letras por defecto, save docx por defecto.)
+
+8 CUSTOM SHELL:
+	Configurar bashrc
+		Agregar pfetch/neofetch
+		Agregar powerline (arch wiki) for examples
+		Agregar al 4to renglon PATH='$HOME'/.cargo/bin${PATH:+:${PATH}}
+		Agregar a Alias ls= ls -lahalias ls='exa -al --color=always --group-directories-first'
+
+		
+	Configurar en Alacritty o Bashrc
+		Cambiar fuente (En alacritty es config yml sacando los # a font,normal,family y style. 
+		En family se pone la fuente con comillas 'UbuntuMono Nerd Font'
+		Cambiar el tamaño descomentando size: debajo de point size to 12
+
+
+
+	Desde el menu
+		Quitar scrool bar y menu
+
+9 Cambiar shortcuts de teclas en en WM o DE*:
+	Terminal, Close windows, LogOut, Dmenu, 
+	Se podria borrar el boton de inicio
+	
+	(*Si se usan o si no estan puestas)
+
+10 Configurar DMenu
+
+11 Cambiar el color de NVIM y el tema GTK si estamos usando algun DE.
